@@ -8,6 +8,6 @@ public class ApiTester {
 
     @GetMapping("/api/test")
     public String apiTest() {
-        return "API was hit, go ahead!";
+        return "API was hit, go ahead!!";
     }
 }
